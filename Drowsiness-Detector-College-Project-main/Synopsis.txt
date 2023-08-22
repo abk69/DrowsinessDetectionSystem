@@ -1,0 +1,26 @@
+
+
+## Project Synopsis:
+
+**Title:**DROWSINESS  DETECTION SYSTEM
+
+**Objective:**
+The Real-time Driver Drowsiness Detection System is designed to enhance road safety by using computer vision techniques to detect driver drowsiness in real-time. When signs of drowsiness are detected, such as prolonged eye closure, the system plays an alarm to alert the driver and prompt them to take corrective action, thus reducing the risk of accidents due to drowsy driving.
+
+**Key Features:**
+
+1. **Facial Landmark Detection:** The system employs facial landmark detection to identify and track the driver's eyes in a live video stream.
+
+2. **Eye Aspect Ratio (EAR):** EAR is used to quantify the openness of the driver's eyes. When the EAR falls below a specified threshold, it indicates potential drowsiness.
+
+3. **Multi-Threading:** A separate thread is used to play the alarm sound, ensuring real-time responsiveness without impacting drowsiness detection.
+
+4. **Customizable Alarm:** Users have the option to specify an alarm sound of their choice, making the system adaptable to individual preferences.
+
+5. **Command-Line Configuration:** The system provides command-line arguments for easy configuration, allowing users to specify the path to the facial landmark detector and webcam index.
+
+**Significance:**
+Drowsy driving is a significant contributor to road accidents and fatalities. This system aims to mitigate this issue by proactively alerting drivers when they exhibit signs of drowsiness, thereby preventing accidents and saving lives.
+
+**Conclusion:**
+The Real-time Driver Drowsiness Detection System leverages computer vision, facial landmark detection, and the EAR algorithm to enhance road safety. By continuously monitoring a driver's eyes and playing an alarm when drowsiness is detected, it offers a practical solution to combat the dangers of drowsy driving, ultimately making our roads safer for everyone.
